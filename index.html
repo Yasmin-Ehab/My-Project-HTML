@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="this is our book store">
+        <title> my book</title>
+        <!-- <script src="task.js"></script> -->
+        <!-- <style> </style> -->
+        <!-- <link rel="stylesheet" href=""> -->
+
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+       <style>
+   
+    body {
+      padding-top: 80px; 
+      background-color: #f8f9fa;
+    }
+
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #343a40;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 1.7rem;
+      font-weight: bold;
+    }
+
+    .header button {
+      font-weight: bold;
+    }
+
+
+    .card {
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      height: 250px;
+      object-fit: contain;
+    }
+
+    
+    #productDetails {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px 0;
+    }
+  </style>
+     </head>
+ 
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+   <body> 
+     
+  <!-- <h1>Book Store </h1> 
+  <p> this is My Book Store , welcome </p>
+  <a href="https://facebook.com" target="_blank" title="go to the facebook">facebook</a>
+  <a href="https://google.com" target="_blank" title="go to the google">Google</a>
+  <a href="test.html" target="_blank" title="go to the test">test</a>
+  <a href="#yaso" target="_blank" title="go to the lorem">test</a>
+<p id="yaso">YASO Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugit possimus tempore quod sapiente. Modi molestiae quibusdam qui quaerat debitis eum sunt iure earum! Sunt consectetur facere ea dolorum nihil?</p>
+
+<img src="Screenshot 2025-12-09 212855.png" alt=""> -->
+<div class="header">
+    <h1>My Store</h1>
+    
+</div>
+<div class="container max-auto">
+    <div 
+    id="product"
+    class="d-flex flex-wrap gap-5"
+    ></div>
+ 
+
+</div>
+<script src="task.js"></script>
+<script src="product.js"></script>
+
+</body>
+</html>  
+
+
